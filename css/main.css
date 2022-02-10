@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* reset */
+* {
+  margin: 0px;
+  padding: 0px; }
+
+/* características generales de enlaces-listas */
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: #F2784B; }
+
+/* estilos de cuerpo */
+body {
+  background-color: #ffffff; }
+
+header {
+  background-color: #292929; }
+  header .logo-agencia {
+    width: 20em;
+    position: relative;
+    top: 30px;
+    left: 250px; }
+  header .frase-encabezado {
+    color: #F2784B;
+    position: relative;
+    left: 550px;
+    bottom: 200px; }
+
+nav .menu-navegacion-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px; }
+
+nav .seccion-menu-navegacion {
+  font-size: 22px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  color: #F2784B;
+  background-color: #292929;
+  border: #F2784B 1px solid;
+  border-radius: 50px;
+  padding: 5px; }
+
+nav .seccion-abierta {
+  background-color: #F2784B;
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  padding: 5px;
+  border-radius: 50px; }
+
+footer .imagen-icono-redes {
+  width: 50px; }
+
+footer .contenedor-redes-sociales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #292929;
+  border-top: #F2784B solid 2px;
+  margin-top: 100%; }
+
+footer .lista-redes {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
